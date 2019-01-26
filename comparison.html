@@ -16,7 +16,6 @@
         <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
                 </button>
                     <a class="label label-info" href="index.html">Latitude</a>
             </div>
@@ -25,17 +24,40 @@
                     <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                                <li><a href="maxtemp.html">Max Temperature</a></li>
-                                <li><a href="humidity.html">Humidity</a></li>
-                                <li><a href="cloudiness.html">Cloudiness</a></li>
-                                <li><a href="windspeed.html">Wind Speed</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="comparison.html">Comparison</a></li>
-                        <li><a href="data.html">Data</a></li>
+                            <li><a href="maxtemp.html">Max Temperature</a></li>
+                            <li><a href="humidity.html">Humidity</a></li>
+                            <li><a href="cloudiness.html">Cloudiness</a></li>
+                            <li><a href="windspeed.html">Wind Speed</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="comparison.html">Comparison</a></li>
+                    <li><a href="data.html">Data</a></li>
                 </ul>
             </div>
         </div>
     </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 vis">
+                <h1 class="display-3">Comparison: Latitude vs. X</h1>
+                <hr class="my-4">
+                <p>Click any plot to get an in-depth analysis.</p>
+                <div>
+                    <a href="maxtemp.html">
+                        <img class="column vertical" src="../web_visualization_dash/assets/images/Fig1.png" title="vs. Max Temperature">
+                    </a>
+                    <a href="humidity.html">
+                        <img class="column vertical" src="../web_visualization_dash/assets/images/Fig2.png" alt="vs. Humidity">
+                    </a>
+                    <a href="cloudiness.html">
+                        <img class="column vertical" src="../web_visualization_dash/assets/images/Fig3.png" alt="vs. Cloudiness">
+                    </a>
+                    <a href="windspeed.html">
+                        <img class="column vertical" src="../web_visualization_dash/assets/images/Fig4.png" alt="vs. Wind Speed">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
